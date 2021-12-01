@@ -1,5 +1,7 @@
 # app
 
+![alt text](https://raw.githubusercontent.com/germanyum/vue-optionsApi/master/public/ss.png)
+
 ## Project setup
 ```
 npm install
