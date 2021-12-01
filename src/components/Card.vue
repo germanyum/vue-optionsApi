@@ -35,7 +35,6 @@ export default {
       this.$store.dispatch("like", data);
     },
     delet(data) {
-      console.log(data);
       this.$store.dispatch("sil", data);
     },
     bookmark(data) {
