@@ -8,7 +8,7 @@
     >
       <div class="card-body">
         <h5 class="card-title">
-          <p class="card-text">{{ todo.text }}</p>
+          <p class="card-text">{{ todo.text }}{{ todo.id }}</p>
         </h5>
         <p class="card-text">{{ todo.alt }}</p>
         <div class="row">

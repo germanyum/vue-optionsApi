@@ -6,22 +6,15 @@ const store = createStore({
     todolist: [
       {
         id: 1,
-        text: "vue deneme egıtımı",
-        alt: "bubır açıklama",
+        text: "First Todo",
+        alt: "First Desc",
         like: true,
         bookmark: false,
       },
       {
         id: 2,
-        text: "react  deneme egıtımı",
-        alt: "bubır açıklama",
-        like: false,
-        bookmark: false,
-      },
-      {
-        id: 3,
-        text: "angular js deneme egıtımı",
-        alt: "bubır açıklama",
+        text: "Second Todo",
+        alt: "Second Desc",
         like: false,
         bookmark: false,
       },
@@ -46,7 +39,9 @@ const store = createStore({
       );
     },
     ekle(context, data) {
-      data.id = context.state.counter++;
+      let lenght = context.state.todolist.length + 1;
+
+      data.id = lenght;
       (data.like = false),
         (data.bookmark = false),
         context.state.todolist.push(data);
