@@ -13,7 +13,7 @@
     referrerpolicy="no-referrer"
   />
   <div class="container-fulid">
-    <div class="row">
+    <div class="row gx-0">
       <div class="col-2 left-nav">
         <router-link to="/">
           <div class="row">
@@ -36,7 +36,7 @@
           </div>
         </router-link>
       </div>
-      <div class="col-10">
+      <div class="col-10 p-5 pt-0">
         <router-view></router-view>
       </div>
     </div>
